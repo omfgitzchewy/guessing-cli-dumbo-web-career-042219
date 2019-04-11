@@ -4,7 +4,7 @@ def run_guessing_game
   random_num = Random.new.rand(6)
   while input != "exit"
     if input == random_num
-      puts
+      
 
     end
 end
