@@ -1,7 +1,7 @@
 def run_guessing_game
   random_num = Random.new.rand(6)
   input = nil
-  until input != "exit"
+  until input == "exit"
     puts "Guess a number between 1 and 6."
     input = gets.chomp
     if input == random_num
