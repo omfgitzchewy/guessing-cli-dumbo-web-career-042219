@@ -7,6 +7,5 @@ def run_guessing_game
     else
       puts "The computer guessed 5."
     end
-  end
   puts "Goodbye!"
 end
