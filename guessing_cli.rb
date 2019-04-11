@@ -3,7 +3,7 @@ def run_guessing_game
   input = gets.chomp()
 
   while input != "exit"
-    random_num = Random.new.rand(6)
+    random_num = rand(1..6)
     if input.to_i == random_num
       puts "You & computer guessed the correct number!"
       puts "Guess a number again between 1 and 6."
