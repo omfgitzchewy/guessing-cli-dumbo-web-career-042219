@@ -9,5 +9,5 @@ def run_guessing_game
     else  input != random_num
       return "The computer guessed 5."
     end
-  end
+
 end
