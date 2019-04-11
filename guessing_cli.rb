@@ -10,5 +10,5 @@ def run_guessing_game
       return "The computer guessed 5."
     end
   end
-  puts "Goodbye!"
+  return "Goodbye!"
 end
