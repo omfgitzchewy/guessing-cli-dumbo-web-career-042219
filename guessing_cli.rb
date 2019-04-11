@@ -6,10 +6,8 @@ def run_guessing_game
     random_num = rand(1..6)
     if input.to_i == random_num
       return "You & computer guessed the correct number!"
-      input = gets.chomp()
     else
       return "The computer guessed #{random_num}"
-      input = gets.chomp()
     end
   end
 
