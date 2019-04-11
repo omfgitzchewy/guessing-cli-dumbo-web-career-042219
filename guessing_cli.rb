@@ -1,4 +1,10 @@
 def run_guessing_game
+  puts "Guess a number between 1 and 6."
   input = gets.chomp
-  Random.new.rand()
+  random_num = Random.new.rand(6)
+  while input != "exit"
+    if input == random_num
+      puts
+
+    end
 end
