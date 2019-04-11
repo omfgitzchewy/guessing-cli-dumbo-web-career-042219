@@ -3,9 +3,9 @@ def run_guessing_game
   random_num = Random.new.rand(6)
     input = gets.chomp
     if input == random_num
-      puts "You guessed the correct number!"
+      return "You guessed the correct number!"
     else
-      puts "The computer guessed 5."
+      return "The computer guessed 5."
     end
   return "Goodbye!"
 end
