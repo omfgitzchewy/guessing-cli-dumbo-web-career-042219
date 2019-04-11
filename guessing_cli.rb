@@ -9,7 +9,6 @@ def run_guessing_game
       break
     else
       puts "The computer guessed 5."
-      break
     end
   end
   puts "Goodbye!"
